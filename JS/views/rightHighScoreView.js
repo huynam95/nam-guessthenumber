@@ -1,4 +1,4 @@
-import View from './view';
+import View from './View.js';
 
 class rightHighScoreView extends View {
   _parentElement = document.querySelector('.highscore');

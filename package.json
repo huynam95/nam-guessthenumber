@@ -2,7 +2,7 @@
   "name": "01-guess-my-number",
   "version": "1.0.0",
   "description": "Practicing DOM manipulation",
-  "main": "script.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"

@@ -1,0 +1,15 @@
+{
+  "name": "01-guess-my-number",
+  "version": "1.0.0",
+  "description": "Practicing DOM manipulation",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Huy Nam",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

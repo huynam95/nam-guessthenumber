@@ -74,3 +74,12 @@ init();
 // git status
 // git add -A
 // git commit -m 'Initial commit'
+// git status
+// git reset -- hard HEAD
+// git log
+// git reset -- hard 46f81f7b82c809b1e60048ba019c3e8485bb9e02
+
+// git branch
+// git branch new-feature
+// git checkout new-feature
+// git merge new-feature

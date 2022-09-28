@@ -2,7 +2,7 @@ import { SCORE } from './config.js';
 
 export const state = {
   result: [],
-  secretNumber: '',
+  secretNumber: 0,
   score: SCORE,
   highScore: 0,
 };

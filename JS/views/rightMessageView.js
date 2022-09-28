@@ -29,7 +29,7 @@ class rightMessageView extends View {
       return `Start guessing...`;
     }
 
-    if (curResult > 20) {
+    if (curResult > 20 || curResult < 1) {
       if (curScore === 0) {
         document.querySelector('body').style.backgroundColor = 'red';
         document.querySelector('.number').style.width = '30rem';

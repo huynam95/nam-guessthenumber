@@ -60,9 +60,10 @@ const controlAgain = function () {
  */
 const init = function () {
   model.generateSecretNum();
-  rightHighScoreView.render(model.state);
   leftView.addHandlerGetResult(controlScore);
   againView.addHandlerAgain(controlAgain);
+  model.getHighScore();
+  rightHighScoreView.render(model.state);
 };
 
 init();

@@ -17,7 +17,6 @@ export const state = {
  */
 export const generateSecretNum = function () {
   state.secretNumber = Math.trunc(Math.random() * 20) + 1;
-  console.log(state.secretNumber, 2);
 };
 
 /**
@@ -42,6 +41,7 @@ export const addScore = function (userGuess) {
  */
 export const addHighScore = function (highScore) {
   state.highScore = highScore;
+  localStorage.setItem('highScore', JSON.stringify(state.highScore));
 };
 
 /**
@@ -67,4 +67,10 @@ export const resetScore = function () {
  */
 export const minusScore = function () {
   state.score--;
+};
+
+export const getHighScore = function () {
+  const storage = localStorage.getItem('highScore');
+  if (storage) state.highScore = JSON.parse(storage);
+  console.log(state.highScore);
 };

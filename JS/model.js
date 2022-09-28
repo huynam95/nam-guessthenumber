@@ -17,6 +17,7 @@ export const state = {
  */
 export const generateSecretNum = function () {
   state.secretNumber = Math.trunc(Math.random() * 20) + 1;
+  console.log(state.secretNumber, 2);
 };
 
 /**

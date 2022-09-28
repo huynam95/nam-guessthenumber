@@ -53,7 +53,6 @@ export const addHighScore = function (highScore) {
  */
 export const resetScore = function () {
   state.result = [];
-  secretNumber = 0;
   state.score = SCORE;
 };
 

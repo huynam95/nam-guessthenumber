@@ -12,7 +12,6 @@ class rightScoreView extends View {
    * @todo None
    */
   _generateMarkup() {
-    console.log(this, 'rightScoreView');
     const curScore = this._data.score;
     return curScore;
   }

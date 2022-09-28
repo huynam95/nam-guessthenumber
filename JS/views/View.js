@@ -10,7 +10,6 @@ export default class View {
    * @todo None
    */
   render(data) {
-    console.log(this, 'From View');
     this._data = data;
     const markup = this._generateMarkup();
     this._parentElement.textContent = markup;

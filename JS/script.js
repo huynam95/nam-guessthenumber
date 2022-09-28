@@ -43,9 +43,9 @@ const controlScore = function (userGuess) {
  * @todo Refactoring some bad code
  */
 const controlAgain = function () {
+  model.resetScore();
   model.generateSecretNum();
   document.querySelector('.guess').disabled = false;
-  model.resetScore();
   rightMessageView.render(model.state);
   rightScoreView.render(model.state);
 };
